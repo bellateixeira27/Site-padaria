@@ -127,10 +127,11 @@ footer p {
 
     .menu li a{
         font-size: 20px;
-        margin-right: 30px;
+        margin-right: 0;
+        margin:10px;
     }
     .logo-header{
-        width: 300px;
+        width: 90%;
     }
     .conteudo-produtos{
         flex-direction: column;
@@ -138,9 +139,14 @@ footer p {
     }
     .menu ul {
         padding-left: 0;
-        margin: auto;
+        margin: 0px;
     }
-
+    #sobre-nos {
+        padding: 0;
+    }
+    img{
+        width: 300px;
+    }
     #produtos{
         padding-left: 0;
         padding-right: 0;
